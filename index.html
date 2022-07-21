@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Currency Converter</title>
+
+	
+
+	<!-- linking style.css file-->
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<!-- Currency Converter -->
+	<h1 class="heading text-center display-2" style="font-size: 50px;">
+	<span>CURRENCY CONVERTER</span></h1>
+<hr class="new5">
+	<div class="container">
+
+		<div class="main">
+
+			<div class="form-group">
+				<label for="oamount">
+					Amount to Convert :
+				</label>
+				<input type="text"
+					class="form-control searchBox"
+					placeholder="0.00"
+					id="oamount">
+			</div>
+
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text">From</span>
+						</div>
+						<select class="form-control from" id="sel1">
+							<option value="">Select One …</option>
+							<option value="USD">USD</option>
+							<option value="AED">AED</option>
+							<option value="ARS">ARS</option>
+							<option value="AUD">AUD</option>
+							<option value="BGN">BGN</option>
+							<option value="BRL">BRL</option>
+							<option value="BSD">BSD</option>
+							<option value="CAD">CAD</option>
+							<option value="CHF">CHF</option>
+							<option value="CLP">CLP</option>
+							<option value="CNY">CNY</option>
+							<option value="COP">COP</option>
+							
+						</select>
+					</div>
+				</div>
+
+				<div class="col-sm-6">
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text">To</span>
+						</div>
+						<select class="form-control to" id="sel2">
+							<option value="">Select One …</option>
+							<option value="USD">USD</option>
+							<option value="AED">AED</option>
+							<option value="ARS">ARS</option>
+							<option value="AUD">AUD</option>
+							<option value="BGN">BGN</option>
+							<option value="BRL">BRL</option>
+							<option value="BSD">BSD</option>
+							<option value="CAD">CAD</option>
+							<option value="CHF">CHF</option>
+							<option value="CLP">CLP</option>
+							<option value="CNY">CNY</option>
+							<option value="COP">COP</option>
+							
+						</select>
+					</div>
+				</div>
+			</div>
+
+			<div class="text-center">
+
+				<!-- convert button -->
+				<button class="btn btn-primary convert m-2"
+						type="submit">
+					Convert
+			</button>
+
+				<!-- reset button -->
+				<button class="btn btn-primary m-2"
+						onclick="clearVal()">
+				Reset
+			</button>
+			</div>
+
+		</div>
+
+		<div id="finalAmount" class="text-center">
+
+			<!-- Display the converted amount -->
+			<h2>Converted Amount :
+				<span class="finalValue"
+					style="color:green;">
+		</span>
+			</h2>
+		</div>
+	</div>
+
+
+	<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora esse nulla maxime beatae vel ipsum non cum eius omnis deleniti dignissimos neque repellat, exercitationem blanditiis velit. Labore vel assumenda eligendi autem nulla quibusdam beatae soluta possimus corporis. Eum asperiores expedita pariatur modi ab placeat recusandae, molestias quam animi quos quas officia perspiciatis consectetur et mollitia inventore suscipit, iusto esse aliquam laboriosam saepe eaque ullam eos. Aut, eos quisquam. Voluptatibus necessitatibus rerum perferendis, id eos a fugiat incidunt aliquid odit esse doloribus inventore ducimus. Reiciendis id dolore, distinctio vitae amet iste a! Reprehenderit, velit aut! Itaque cum perferendis dolore nesciunt hic error porro, eius dolores blanditiis exercitationem quasi maiores beatae id? Accusamus quisquam ipsam aspernatur beatae voluptatum ea veritatis repellendus, aut a perferendis dicta enim libero mollitia officiis reprehenderit placeat omnis, amet et. Necessitatibus ad maxime debitis illo eveniet voluptatem repellat. Dolores placeat quam ducimus eos, neque ea et illum vero aut cumque facere? Dignissimos magnam ducimus animi illum ea modi, vitae sit sequi, minus minima fugiat. Non debitis esse ratione modi, tempora id quasi harum pariatur asperiores ipsa saepe sapiente, odio eos mollitia aperiam labore blanditiis velit soluta dolorum! Incidunt, hic! Culpa, sint dolorum. Qui unde laborum provident adipisci odio porro consequatur dolores iusto facere eum consequuntur magni accusamus non impedit ducimus sint animi mollitia ad ipsam rerum placeat, assumenda quasi numquam est! Neque cum optio quos, repellat distinctio tempore corrupti laborum et iure placeat ipsam iste quaerat expedita, sed voluptatem perferendis eos nulla commodi obcaecati in. Praesentium voluptatum totam, laudantium at quam cum consectetur ducimus, reprehenderit quos dicta pariatur odio quibusdam vitae explicabo placeat eum nobis. Est ipsa amet tempore officiis autem nam quis necessitatibus laboriosam praesentium deserunt eos sit, esse dolor commodi ex eveniet repellendus, delectus porro ut suscipit facere harum architecto voluptatibus? Eveniet, dignissimos quia architecto aperiam voluptas, dolorum accusantium ab necessitatibus praesentium possimus unde ut autem quae voluptatem eum neque ullam corporis commodi recusandae voluptates repudiandae corrupti! Magni ducimus deleniti quis corrupti consequatur aliquam. Labore accusamus fugiat quam distinctio voluptatibus laudantium, incidunt assumenda deserunt, officiis quis ipsam aspernatur ex iure omnis et vero esse nesciunt blanditiis molestiae reprehenderit hic odio est laboriosam ipsum! Quaerat consequatur possimus soluta consequuntur cumque quod tempora in doloribus rem maiores veritatis reiciendis beatae saepe numquam fugit nisi eligendi neque, tempore quisquam pariatur accusantium culpa repellat. Facere quod iusto, cum dicta debitis natus molestias vel ex iure dolore fuga temporibus odit tempore itaque libero repellendus quos. Nemo qui, impedit modi quaerat vero quis ea reprehenderit ullam. Eos, culpa libero itaque modi fugit soluta, hic earum mollitia doloremque vero ad non magnam est. Rem cum, laborum sequi eveniet iure quis nostrum ab amet fugit modi quos, quod, temporibus et officiis tenetur? Dignissimos nostrum officiis optio ab fuga, est iste sapiente aspernatur ipsa necessitatibus eaque nihil sunt dolorum ex tempore quam ipsam minus porro! Quasi deserunt nemo voluptas aliquid. Velit sed illum obcaecati consectetur quasi dicta quibusdam ea et culpa iure amet delectus incidunt quisquam, dolorum repellat maxime eveniet, possimus totam impedit sunt, cupiditate eligendi accusamus? Libero totam iste numquam ipsum, error ullam ad, rerum tempora reprehenderit laudantium magnam architecto minus dicta tenetur vel perspiciatis quidem sapiente earum saepe, ex aspernatur laboriosam provident. Facere ad optio rem. Minima, repellat sit. Deserunt, laboriosam! Dolorum ducimus tempore, provident tenetur aspernatur pariatur modi explicabo veniam quisquam nemo earum laborum optio fuga natus dolores ipsam quaerat obcaecati? Eum tempore cupiditate error laborum optio iusto quae, culpa quibusdam cum quisquam deserunt voluptas et minus sint mollitia itaque exercitationem ad quos debitis quia architecto cumque quod consectetur? Minus, distinctio tempora sunt perspiciatis facilis culpa, dicta iure consequatur reprehenderit repellendus quasi esse enim doloremque eaque! Vel ipsa eos ipsam fugiat vero, dolorum error numquam sapiente labore eveniet deleniti a nam, velit soluta doloremque harum placeat. Aperiam, eaque maiores! Nihil, in praesentium. Sequi suscipit dignissimos esse porro fugit, iure repellat dolor hic voluptatem, qui inventore voluptate incidunt! Voluptate cumque a veniam voluptatibus veritatis laboriosam officia expedita nobis, maiores quas rerum reprehenderit praesentium molestias, quidem accusantium! Commodi culpa vel similique praesentium maxime vitae impedit beatae, suscipit adipisci laborum sint et eius harum magnam amet, exercitationem ab asperiores laboriosam recusandae accusamus non voluptate. Quia, maiores, consequuntur suscipit excepturi laborum commodi labore ut adipisci tempora, obcaecati praesentium quod delectus qui quidem officiis dolorem. Vero voluptates praesentium sint veniam sed placeat dolor cum, eaque aspernatur! Minima consequatur laudantium, nisi dolore error excepturi saepe, maxime deserunt aperiam dolorum libero hic nemo ducimus at vero pariatur dolorem molestiae sed atque! Praesentium laboriosam, voluptas necessitatibus fugiat, non culpa maxime pariatur, sed error a sunt. Nam dolorem vero, maxime a maiores, minima nesciunt aliquam ex corporis quis, itaque recusandae rem dicta! Magni natus provident deleniti, culpa consequatur nihil dignissimos vel impedit dolorem voluptas laborum rerum eum, necessitatibus commodi, odit quam repellat! Quae quod harum doloremque sed labore nesciunt optio tempore sunt iure? Fugit iste nam consectetur, reprehenderit nulla unde blanditiis, officiis mollitia a tempora repudiandae soluta. Itaque neque consectetur incidunt doloremque, ex totam? Enim atque ipsum voluptatum ratione vitae hic quisquam reiciendis, ullam provident, quasi magnam veritatis fuga quidem quae magni dolores praesentium nulla impedit odit nostrum autem. Suscipit quibusdam quam numquam nisi labore voluptatem harum alias, itaque voluptatibus deserunt perferendis tempora praesentium soluta nulla nesciunt fugiat culpa eveniet vel accusamus odio. Est non deserunt, quam culpa dicta cupiditate voluptas sit, qui omnis autem magnam consequuntur sint porro. Nam tempora, corrupti magnam asperiores veritatis suscipit ducimus eum quos saepe at ex quasi illo consequuntur unde officia nulla similique quam minus consequatur harum tenetur iure. Omnis ratione, doloribus dolor, aperiam nulla reiciendis excepturi eius tempora iure perferendis voluptate eos fugiat sunt voluptatibus odit dolorum provident possimus quam quos recusandae praesentium eum. Enim velit quisquam repellat consequatur quod? Nihil est aliquid explicabo, culpa quaerat repudiandae debitis magni distinctio natus possimus reprehenderit rerum blanditiis quibusdam tenetur, molestias laboriosam suscipit officiis, minima consequuntur velit cumque nulla eius eveniet ut. Quis sapiente quo exercitationem molestiae praesentium ratione quasi dicta ex assumenda asperiores? Molestiae dolore soluta tempora, voluptas facere repellat, eius minima eos quaerat, velit explicabo!</p>
+	<!-- linking script.js file -->
+	<script src="currency.js"></script>
+</body>
+
+</html>
